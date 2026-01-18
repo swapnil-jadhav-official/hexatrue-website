@@ -13,10 +13,10 @@ export function Header({ page, color }: HeaderProps) {
     <header className={styles.header}>
       <Link href="/">
         <Image
-          src="/images/eltezza-logo.svg"
-          alt="Eltezza"
-          width={132}
-          height={24}
+          src="/main_title.png"
+          alt="HexaTrue"
+          width={280}
+          height={65}
           className={styles.headerLogo}
         />
       </Link>

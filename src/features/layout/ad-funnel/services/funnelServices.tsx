@@ -14,10 +14,12 @@ export function FunnelServices({ content, onOpen }: FunnelServicesProps) {
       <div className={styles.servicesWrap}>
         <div className={styles.servicesIntro}>
           <h2 className={styles.servicesIntroHeading}>Our bread & butter 🧈</h2>
+          {/* TODO: Update Calendly link - onOpen handler commented out */}
           <Button
-            onClick={onOpen}
+            // onClick={onOpen}
             variant={ButtonVariant.applyWhite}
             className={styles.servicesButton}
+            disabled
           >
             {calendlyButtonText}
           </Button>
@@ -32,10 +34,12 @@ export function FunnelServices({ content, onOpen }: FunnelServicesProps) {
               <p>{item.description}</p>
             </div>
           ))}
+          {/* TODO: Update Calendly link - onOpen handler commented out */}
           <Button
-            onClick={onOpen}
+            // onClick={onOpen}
             variant={ButtonVariant.applyWhite}
             className={styles.servicesButtonMobile}
+            disabled
           >
             {calendlyButtonText}
           </Button>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\Users\\\\tejas\\\\OneDrive\\\\Desktop\\\\HexaTrue\\\\hexatrue-v1-0-new\\\\public\")",
+      "Bash(findstr:*)"
+    ]
+  }
+}

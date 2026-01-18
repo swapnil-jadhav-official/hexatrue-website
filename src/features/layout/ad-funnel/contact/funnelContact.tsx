@@ -7,11 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { calendlyButtonText, socialLinks } from "@/constants";
 import { Scroll } from "@/utils/scroll";
 
-interface FunnelContactProps {
-  onOpen: () => void;
-}
-
-export function FunnelContact({ onOpen }: FunnelContactProps) {
+export function FunnelContact(): JSX.Element {
   return (
     <section className={styles.contactSection}>
       <div className={styles.topSection}>
@@ -28,17 +24,22 @@ export function FunnelContact({ onOpen }: FunnelContactProps) {
             we can build together!
           </p>
         </div>
-        <Button onClick={onOpen} variant={ButtonVariant.applyOrange}>
+        {/* TODO: Update Calendly link - onOpen handler commented out */}
+        <Button
+          // onClick={onOpen}
+          variant={ButtonVariant.applyOrange}
+          disabled
+        >
           {calendlyButtonText}
         </Button>
       </div>
       <div className={styles.bottomSection}>
         <div className={styles.bottomSectionLinks}>
           <Image
-            src="/images/eltezza_gradientLogo.svg"
-            alt="Eltezza"
-            width={164}
-            height={56}
+            src="/main_title.png"
+            alt="HexaTrue"
+            width={220}
+            height={75}
             className={styles.logo}
             onClick={() => Scroll(0, "smooth")}
             aria-label="Scroll to top"
@@ -71,7 +72,7 @@ export function FunnelContact({ onOpen }: FunnelContactProps) {
           </div>
         </div>
         <div className={styles.copyrightFooter}>
-          <p>&copy; 2026 Eltezza. All Rights Reserved.</p>
+          <p>&copy; 2026 HexaTrue. All Rights Reserved.</p>
           <div className={styles.pageLinks}>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-and-conditions">Terms of Service</Link>

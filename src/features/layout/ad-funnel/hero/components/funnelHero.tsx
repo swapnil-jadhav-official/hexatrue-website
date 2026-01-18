@@ -25,10 +25,12 @@ export function Header({ onOpen }: HeaderProps) {
         </p>
       </div>
       <div className={styles.buttonContainer}>
+        {/* TODO: Update Calendly link - onOpen handler commented out */}
         <Button
-          onClick={onOpen}
+          // onClick={onOpen}
           variant={ButtonVariant.applyOrange}
           className={styles.applyButton}
+          disabled
         >
           {calendlyButtonText}
         </Button>

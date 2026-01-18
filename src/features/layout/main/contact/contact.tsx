@@ -15,10 +15,10 @@ export function Contact({ text, onOpen, isOpen }: ContactProps) {
       <div className={styles.purpleOrb} />
       <div className={styles.contactContainer}>
         <Image
-          src="/images/eltezza-logo.svg"
-          alt="Eltezza"
-          width={133}
-          height={24}
+          src="/main_title.png"
+          alt="HexaTrue"
+          width={180}
+          height={40}
           className={styles.logo}
         />
         <div>
@@ -57,13 +57,15 @@ export function Contact({ text, onOpen, isOpen }: ContactProps) {
           Let&apos;s make your digital dreams a reality.
           <br className={styles.break} /> Contact us today to start the journey.
         </p>
+        {/* TODO: Update Calendly link - onOpen handler commented out */}
         <Button
-          onClick={onOpen}
+          // onClick={onOpen}
           variant={ButtonVariant.main}
           className={styles.contactButton}
           aria-label="Open Contact Form"
           aria-haspopup="dialog"
           aria-expanded={isOpen}
+          disabled
         >
           Let&apos;s Collaborate
         </Button>
@@ -90,7 +92,7 @@ export function Contact({ text, onOpen, isOpen }: ContactProps) {
       </div>
       <p className={styles.copyrightInfo}>
         <span className={styles.copyrightSymbol}>&#169;</span>
-        Eltezza Ltd 2025
+        HexaTrue 2026
       </p>
     </section>
   );

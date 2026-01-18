@@ -49,10 +49,10 @@ export default function PagePortal({
         exit={{ opacity: 0 }}
       >
         <Image
-          src="/images/eltezza-logo.svg"
-          alt="Eltezza"
-          width={124}
-          height={20}
+          src="/main_title.png"
+          alt="HexaTrue"
+          width={150}
+          height={32}
         />
         <h1 className={styles.title}>{title}</h1>
       </motion.div>

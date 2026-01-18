@@ -5,10 +5,10 @@ export function FunnelHeader() {
   return (
     <header className={styles.logoContainer}>
       <Image
-        src="/images/eltezza_gradientLogo.svg"
-        alt="Eltezza"
-        width={164}
-        height={56}
+        src="/main_title.png"
+        alt="HexaTrue"
+        width={300}
+        height={110}
         className={styles.logo}
       />
     </header>

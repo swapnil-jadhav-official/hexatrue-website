@@ -591,25 +591,25 @@ export const testimonialsData = [
   },
   {
     review:
-      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. Eltezza is extremely responsive to feedback and they go above and beyond to deliver value.",
+      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. HexaTrue is extremely responsive to feedback and they go above and beyond to deliver value.",
     name: "Keonimana Shigematsu",
     role: "Director of IKAIKA",
   },
   {
     review:
-      "We are thankful for the splendid content, amazing brand identity, and beautifully interactive website. Eltezza has been with us since day one and we continue to find use for their services on an ongoing basis for video ad campaigns. They truly served all our creative needs. Highly Recommended!",
+      "We are thankful for the splendid content, amazing brand identity, and beautifully interactive website. HexaTrue has been with us since day one and we continue to find use for their services on an ongoing basis for video ad campaigns. They truly served all our creative needs. Highly Recommended!",
     name: "Aden Fareh",
     role: "Public Relations at Cutly",
   },
   {
     review:
-      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending Eltezza.",
+      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending HexaTrue.",
     name: "Sean Cupples",
     role: "Director of Cupples Construction",
   },
   {
     review:
-      "We engaged Eltezza for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
+      "We engaged HexaTrue for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
     name: "Arielle Thomas",
     role: "CinemaThom",
   },
@@ -625,7 +625,7 @@ export const featuredReviewData = {
   } satisfies FeaturedReviewData,
   creative: {
     review:
-      "We engaged Eltezza for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
+      "We engaged HexaTrue for the animation of a corporate project for one of Australia's well-known brands, and it was an absolute pleasure. They comprehended the brief exceptionally well and executed it with precision. The client was extremely satisfied!",
     name: "Arielle Thomas, CinemaThom",
     src: distributionName + "/Creative/Feat_Review/Arielle_hwmabn.png",
   } satisfies FeaturedReviewData,
@@ -768,7 +768,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Creative Director",
-      email: "teneza@eltezza.com",
+      email: "teneza@hexatrue.com",
     },
     {
       name: "Mo Eltayeb",
@@ -778,7 +778,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@eltezza.com",
+      email: "eltayeb@hexatrue.com",
     },
     {
       name: "Pradeep Chhetri",
@@ -788,7 +788,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "Account Manager",
-      email: "chhetri@eltezza.com",
+      email: "chhetri@hexatrue.com",
     },
     {
       name: "Danilo Herrera",
@@ -798,7 +798,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "Business Strategist",
-      email: "herrera@eltezza.com",
+      email: "herrera@hexatrue.com",
     },
     {
       name: "Elisa Hickton",
@@ -808,7 +808,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715732923/EZ%20Website%20-%20Design/Team/Elisa_Hickton_-_Content_Producer_mjkeyq.jpg",
       position: "Content Producer",
-      email: "hickton@eltezza.com",
+      email: "hickton@hexatrue.com",
     },
     {
       name: "Todd Carlsson",
@@ -818,7 +818,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
       position: "Web Developer",
-      email: "carlsson@eltezza.com",
+      email: "carlsson@hexatrue.com",
     },
     {
       name: "Shay Gillanders",
@@ -828,7 +828,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
       position: "Visual Designer",
-      email: "gillanders@eltezza.com",
+      email: "gillanders@hexatrue.com",
     },
     {
       name: "Aileen Banzagales",
@@ -858,7 +858,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Creative Director",
-      email: "teneza@eltezza.com",
+      email: "teneza@hexatrue.com",
     },
     {
       name: "Mo Eltayeb",
@@ -868,7 +868,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@eltezza.com",
+      email: "eltayeb@hexatrue.com",
     },
     {
       name: "Pradeep Chhetri",
@@ -878,7 +878,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "Account Manager",
-      email: "chhetri@eltezza.com",
+      email: "chhetri@hexatrue.com",
     },
     {
       name: "Danilo Herrera",
@@ -888,7 +888,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "Business Strategist",
-      email: "herrera@eltezza.com",
+      email: "herrera@hexatrue.com",
     },
     {
       name: "Ilyas Megarbi",
@@ -918,7 +918,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715647107/EZ%20Website%20-%20Design/Team/Chris_Teneza_-_Creative_Director_ziruf9.jpg",
       position: "Editor & Producer",
-      email: "teneza@eltezza.com",
+      email: "teneza@hexatrue.com",
     },
     {
       name: "Mo Eltayeb",
@@ -928,7 +928,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709569/EZ%20Website%20-%20Design/Team/Mo_Eltayeb_-_Managing_Director_nfrqnm.jpg",
       position: "Managing Director",
-      email: "eltayeb@eltezza.com",
+      email: "eltayeb@hexatrue.com",
     },
     {
       name: "Pradeep Chhetri",
@@ -938,7 +938,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709592/EZ%20Website%20-%20Design/Team/Pradeep_Chhetri_-_Account_Manager_gibk0f.jpg",
       position: "Account Manager",
-      email: "chhetri@eltezza.com",
+      email: "chhetri@hexatrue.com",
     },
     {
       name: "Danilo Herrera",
@@ -948,7 +948,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709515/EZ%20Website%20-%20Design/Team/Danilo_Herrera_-_Business_Strategist_gcgqi1.jpg",
       position: "Creative Strategist",
-      email: "herrera@eltezza.com",
+      email: "herrera@hexatrue.com",
     },
     {
       name: "Todd Carlsson",
@@ -958,7 +958,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1715919824/EZ%20Website%20-%20Design/Team/Todd_Carlsson_-_Web_Developer_wnk07m.jpg",
       position: "Web Developer",
-      email: "carlsson@eltezza.com",
+      email: "carlsson@hexatrue.com",
     },
     {
       name: "Shay Gillanders",
@@ -968,7 +968,7 @@ export const teamData = {
       placeholder:
         "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_20/v1712709619/EZ%20Website%20-%20Design/Team/Shay_Gillanders_-_Visual_Designer_ap1gci.jpg",
       position: "Visual Designer",
-      email: "gillanders@eltezza.com",
+      email: "gillanders@hexatrue.com",
     },
   ] satisfies Array<TeamData>,
 };
@@ -1066,10 +1066,10 @@ export const btsData = {
     },
     {
       src:
-        distributionName + "/Design/BTS/_What_do_we_do_at_Eltezza__hiejen.jpg",
+        distributionName + "/Design/BTS/_What_do_we_do_at_HexaTrue__hiejen.jpg",
       placeholder:
-        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712183893/EZ%20Website%20-%20Design/BTS/Photos/_What_do_we_do_at_Eltezza__hiejen.jpg",
-      alt: "What do we do at Eltezza?",
+        "https://res.cloudinary.com/dsxzhd4c2/image/upload/c_scale,h_15/v1712183893/EZ%20Website%20-%20Design/BTS/Photos/_What_do_we_do_at_HexaTrue__hiejen.jpg",
+      alt: "What do we do at HexaTrue?",
       isVideo: false,
     },
   ] satisfies Array<BtsData>,
@@ -1622,7 +1622,7 @@ export const funnelReviewsData = [
   },
   {
     review:
-      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. Eltezza is extremely responsive to feedback and they go above and beyond to deliver value.",
+      "Highly recommend this team of young professionals. You can tell they put their heart and passion into their work - it is just quality. They hit deadlines, communication is very efficient and prompt. HexaTrue is extremely responsive to feedback and they go above and beyond to deliver value.",
     name: "Keonimana Shigematsu",
     role: "Director of IKAIKA",
   },
@@ -1633,25 +1633,25 @@ export const funnelReviewsData = [
   },
   {
     review:
-      "I've been working with Eltezza for a few months now, and I'd give them 10 stars if I could! They have great ideas and make me feel comfortable on camera, despite my lack of confidence. Our customers love the content, and I'd highly recommend them!",
+      "I've been working with HexaTrue for a few months now, and I'd give them 10 stars if I could! They have great ideas and make me feel comfortable on camera, despite my lack of confidence. Our customers love the content, and I'd highly recommend them!",
     name: "Nicky Robert",
     role: "Robert Embrodieries",
   },
   {
     review:
-      "We recommend Eltezza highly for any business that wants to develop a brand voice. We worked with them on a 6-month contract to develop our brand from the ground up. Content creation always seemed complicated and I am happy to say the team here has got it sorted for my business and we have attained the style we have always envisioned.",
+      "We recommend HexaTrue highly for any business that wants to develop a brand voice. We worked with them on a 6-month contract to develop our brand from the ground up. Content creation always seemed complicated and I am happy to say the team here has got it sorted for my business and we have attained the style we have always envisioned.",
     name: "Sean Jha",
     role: "Just Pets",
   },
   {
     review:
-      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending Eltezza.",
+      "Great company to deal with. Made everything easy to understand, and worked with us around our busy schedule. Always bright, bubbly, friendly, and willing to lend a hand if we got stuck. Not to mention that they customized our website to develop something that truly reflected what we wanted for our business. We have no hesitations in recommending HexaTrue.",
     name: "Sean Cupples",
     role: "Director of Cupples Construction",
   },
   {
     review:
-      "We have been working with Eltezza for a while now and it has been great. Great team, really easy to work and communicate with.",
+      "We have been working with HexaTrue for a while now and it has been great. Great team, really easy to work and communicate with.",
     name: "Hayden Ryan",
     role: "General Manager of Heatrite",
   },

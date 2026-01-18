@@ -67,7 +67,12 @@ export function FunnelPartnership({
             </div>
           ))}
           <div className={styles.buttonContainer}>
-            <Button onClick={onOpen} variant={ButtonVariant.applyPurple}>
+            {/* TODO: Update Calendly link - onOpen handler commented out */}
+            <Button
+              // onClick={onOpen}
+              variant={ButtonVariant.applyPurple}
+              disabled
+            >
               {calendlyButtonText}
             </Button>
           </div>
@@ -97,10 +102,12 @@ export function FunnelPartnership({
         </motion.div>
       </div>
       <div className={styles.buttonMobileContainer}>
+        {/* TODO: Update Calendly link - onOpen handler commented out */}
         <Button
-          onClick={onOpen}
+          // onClick={onOpen}
           className={styles.buttonMobile}
           variant={ButtonVariant.applyWhite}
+          disabled
         >
           {calendlyButtonText}
         </Button>
