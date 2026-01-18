@@ -41,10 +41,6 @@ function LandingFunnel() {
     Scroll(0, "auto");
   }, []);
 
-  function onOpen() {
-    setShowModal(true);
-    fbq.event("Purchase", { currency: "USD", value: 10 });
-  }
   function onClose() {
     setShowModal(false);
   }

@@ -5,11 +5,10 @@ import Link from "next/link";
 
 interface ContactProps {
   text: "design" | "create";
-  onOpen: () => void;
   isOpen: boolean;
 }
 
-export function Contact({ text, onOpen, isOpen }: ContactProps) {
+export function Contact({ text, isOpen }: ContactProps) {
   return (
     <section id="contact" className={styles.contactSection}>
       <div className={styles.purpleOrb} />
