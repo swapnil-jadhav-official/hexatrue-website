@@ -88,7 +88,7 @@ export default function DesignPage() {
       <Team content={teamData.design} color={color} />
       <Reviews content={testimonialsData} page={page} />
       <Faq content={faqs.design} color={color} />
-      <Contact onOpen={onOpen} text={page} isOpen={showModal} />
+      <Contact text={page} isOpen={showModal} />
       <Portal root="contact-root">
         <FormModal onClose={onClose} showModal={showModal} color={color} />
       </Portal>

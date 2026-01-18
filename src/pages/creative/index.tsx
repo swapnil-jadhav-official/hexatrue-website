@@ -91,7 +91,7 @@ export default function CreativePage() {
       <Team content={teamData.creative} color={"rgb(132, 90, 255)"} />
       <Reviews content={testimonialsData} page={page} />
       <Faq content={faqs.creative} color={color} />
-      <Contact text="create" onOpen={onOpen} isOpen={showModal} />
+      <Contact text="create" isOpen={showModal} />
       <Portal root="contact-root">
         <FormModal onClose={onClose} showModal={showModal} color={color} />
       </Portal>
