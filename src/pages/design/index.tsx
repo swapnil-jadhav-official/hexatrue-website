@@ -48,9 +48,6 @@ export default function DesignPage() {
     Scroll(0, "auto");
   }, []);
 
-  function onOpen() {
-    setShowModal(true);
-  }
   function onClose() {
     setShowModal(false);
   }
