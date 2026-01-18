@@ -32,7 +32,6 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { Scroll } from "@/utils/scroll";
 import Script from "next/script";
-import * as fbq from "@/lib/fpixel";
 
 function LandingFunnel() {
   const router = useRouter();
