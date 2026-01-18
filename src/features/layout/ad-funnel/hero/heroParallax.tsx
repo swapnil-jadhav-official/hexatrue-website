@@ -8,10 +8,9 @@ import { Header } from "./components/funnelHero";
 
 interface HeroParallaxProps {
   products: FunnelHeroContent[];
-  onOpen: () => void;
 }
 
-export const HeroParallax = ({ products, onOpen }: HeroParallaxProps) => {
+export const HeroParallax = ({ products }: HeroParallaxProps) => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 11);
   const thirdRow = products.slice(11, 16);
@@ -49,7 +48,7 @@ export const HeroParallax = ({ products, onOpen }: HeroParallaxProps) => {
   );
   return (
     <>
-      <Header onOpen={onOpen} />
+      <Header />
       <section ref={ref} className={styles.container}>
         <div className={styles.containerGap} />
         <motion.div

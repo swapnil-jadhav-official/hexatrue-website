@@ -11,13 +11,11 @@ import { calendlyButtonText } from "@/constants";
 interface FunnelPartnershipProps {
   firstBox: Array<FunnelPartnershipData>;
   secondBox: Array<FunnelPartnershipData>;
-  onOpen: () => void;
 }
 
 export function FunnelPartnership({
   firstBox,
   secondBox,
-  onOpen,
 }: FunnelPartnershipProps) {
   const [firsBoxRef, { width: firstBoxWidth }] = useMeasure();
   const [secondBoxRef, { width: secondBoxWidth }] = useMeasure();

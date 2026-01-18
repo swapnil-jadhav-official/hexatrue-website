@@ -5,10 +5,9 @@ import { calendlyButtonText } from "@/constants";
 
 interface FunnelServicesProps {
   content: Array<FunnelServicesData>;
-  onOpen: () => void;
 }
 
-export function FunnelServices({ content, onOpen }: FunnelServicesProps) {
+export function FunnelServices({ content }: FunnelServicesProps) {
   return (
     <section className={styles.servicesContainer}>
       <div className={styles.servicesWrap}>

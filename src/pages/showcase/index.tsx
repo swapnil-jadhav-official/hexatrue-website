@@ -73,15 +73,14 @@ function LandingFunnel() {
           />
         </Portal>
         <div className={styles.funnelContentContainer}>
-          <HeroParallax products={funnelHeroImages} onOpen={onOpen} />
-          <FunnelServices content={funnelServices} onOpen={onOpen} />
+          <HeroParallax products={funnelHeroImages} />
+          <FunnelServices content={funnelServices} />
           <FunnelTestimonials content={funnelTestimonials} />
           <FunnelBrands
             content={funnelBrands}
             mobileContent={funnelBrandsMobile}
           />
           <FunnelPartnership
-            onOpen={onOpen}
             firstBox={funnelPartnership.firstBox}
             secondBox={funnelPartnership.secondBox}
           />
@@ -111,7 +110,7 @@ function LandingFunnel() {
           page="design"
           headingTextSize="small"
         />
-        <FunnelContact onOpen={onOpen} />
+        <FunnelContact />
         <motion.div
           initial={{ scaleX: 1 }}
           animate={{

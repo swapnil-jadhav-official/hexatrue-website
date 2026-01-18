@@ -3,11 +3,7 @@ import styles from "./components.module.scss";
 import { calendlyButtonText } from "@/constants";
 import { ScrollIcon } from "./scrollIcon";
 
-interface HeaderProps {
-  onOpen: () => void;
-}
-
-export function Header({ onOpen }: HeaderProps) {
+export function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.headerText}>
